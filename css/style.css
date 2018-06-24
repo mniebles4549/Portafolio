@@ -1,0 +1,205 @@
+* {box-sizing: border-box;}
+
+body { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.home-wrapper{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), 
+	url('../images/portafolio/260756_bac8_3.jpg') no-repeat center top;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+ }
+
+ header {
+ 	position: fixed;
+ 	padding: 10px 0;
+ 	width: 100%;
+ 	background-color: rgba(48, 48, 48, 0.5);
+ }
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header nav a {
+color: white;
+font-weight: bold;
+text-decoration: none;
+margin-left: 10px;
+padding: 10px 15px;
+}
+
+header nav .active{
+	background: #fed136;
+	border-radius: 3px;
+
+}
+
+#home {
+	text-align: center;
+	padding: 200px 0 150px;
+}
+
+#home h1{
+	color:white;
+	font-size: 73px;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: 40px;
+	
+}
+
+#home .divider {
+	width: 80px;
+	border-top: 5px solid #fed136;
+	margin: 0 auto;
+
+}
+
+#home p {
+	font-size: 24px;
+	margin-top: 40px;
+}
+
+#home .social{
+	margin-top: 10px;
+
+}	
+
+#home .social a {
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: black;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition: all .3s;
+}
+
+#home .social a:hover {
+	background-color: #fed136;
+}
+
+#experiencia .box {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+#portafolio {
+	background-color: whitesmoke;
+}
+
+#portafolio .box {
+	display: inline-block;
+	text-align: center;
+	width: 12%;
+	margin: 1%;
+}
+
+#portafolio .box img {
+	width: 100%;
+}
+
+#portafolio .bpx p{
+	color: #666;
+	padding: 10px;
+}
+
+.contacto{
+	width: 400px;
+    margin: auto;
+    background-color: #E2ECEE;
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+
+
+footer {
+	padding: 90px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+section {
+	padding: 80px 0;
+}
+
+section h2 {
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.container {
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
